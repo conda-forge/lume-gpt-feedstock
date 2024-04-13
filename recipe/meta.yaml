@@ -1,5 +1,5 @@
 {% set name = "lume-gpt" %}
-{% set version = "0.7.7" %}
+{% set version = "0.7.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ColwynGulliford/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 257183dbcc359623eec179fadd4b2cc751538eacd8c52edbf5125d1c5521ba4a
+  sha256: 23932555818d37a114250651b751fd7026cb349a39abe5c77d4797ccd249e75b
 
 build:
   noarch: python
