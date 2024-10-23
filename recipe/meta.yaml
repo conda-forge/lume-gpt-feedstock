@@ -11,19 +11,20 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9,<3.13
+    - setuptools
     - pip
   run:
-    - python >=3.6
+    - python >=3.9,<3.13
     - h5py
     - matplotlib-base
     - numpy
-    - scipy
+    - scipy >=1.0.0
     - openpmd-beamphysics
     - pyyaml
     - distgen
@@ -34,12 +35,13 @@ test:
 
 about:
   home: https://github.com/ColwynGulliford/{{ name }}
-  license: APACHE-2.0
-  license_family: APACHE
+  license: Apache-2.0
+  license_family: Apache
   license_file: LICENSE
   summary: LUME-GPT
   description: |
     LUME GPT
+
 extra:
   recipe-maintainers:
     - ColwynGulliford
