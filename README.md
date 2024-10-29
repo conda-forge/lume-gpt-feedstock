@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lume-gpt-feedst
 
 Home: https://github.com/ColwynGulliford/lume-gpt
 
-Package license: APACHE-2.0
+Package license: Apache-2.0
 
 Summary: LUME-GPT
 
