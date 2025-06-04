@@ -28,6 +28,7 @@ requirements:
     - openpmd-beamphysics
     - pyyaml
     - distgen
+    - easygdf
 
 test:
   imports:
