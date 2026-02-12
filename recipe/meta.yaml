@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ColwynGulliford/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 10875ad0f70e18f2f4de981e5ce56b272f6c6a0c0f1095f67fecf5cb2e2de17f
+  sha256: a27893d73b0a5af00577ad12055983ef446fe11aaf83d6dcd393c425c2d590b5
 
 
 build:
