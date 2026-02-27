@@ -26,7 +26,7 @@ requirements:
     - matplotlib-base
     - numpy
     - scipy >=1.0.0
-    - openpmd-beamphysics>=0.14.0
+    - openpmd-beamphysics >=0.14.0
     - pyyaml
     - distgen
     - easygdf
