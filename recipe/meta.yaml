@@ -1,5 +1,5 @@
 {% set name = "lume-gpt" %}
-{% set version = "1.0.10" %}
+{% set version = "1.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ColwynGulliford/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: f53680cfa6b4cc6860b7a8b692738f0db53da7ccad84853c97749b2d949cb168
+  sha256: 77722c27dde9d8a51c6c508439ed1112b1e4075253794c2bb3e3451ecbb4f1a5
 
 
 build:
@@ -26,7 +26,7 @@ requirements:
     - matplotlib-base
     - numpy
     - scipy >=1.0.0
-    - openpmd-beamphysics>=0.14.0
+    - openpmd-beamphysics >=0.14.0
     - pyyaml
     - distgen
     - easygdf
